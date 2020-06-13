@@ -1,0 +1,17 @@
+{
+    "name": "artisangora/dto-factory",
+    "require": {
+        "php": "^7.4",
+        "phpunit/phpunit": "^9.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "DtoFactory\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DtoFactory\\Test\\": "tests/"
+        }
+    }
+}
